@@ -1,0 +1,1 @@
+This repository demonstrates a common SQL performance issue caused by inefficient use of wildcard characters in LIKE clauses. The `bug.sql` file contains an example query that uses a wildcard character at the beginning of the LIKE clause, which can lead to performance issues. The `bugSolution.sql` file provides a more efficient version of the query.
