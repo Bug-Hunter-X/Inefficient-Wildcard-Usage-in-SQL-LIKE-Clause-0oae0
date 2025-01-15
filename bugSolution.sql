@@ -1,0 +1,1 @@
+The solution is to use the wildcard character at the end of the string or use an appropriate index to optimize the search.  Instead of `SELECT * FROM employees WHERE name LIKE '%John%'`, use `SELECT * FROM employees WHERE name LIKE 'John%'` for better efficiency.  Adding an index on the name column would also significantly improve the query performance for both cases.
